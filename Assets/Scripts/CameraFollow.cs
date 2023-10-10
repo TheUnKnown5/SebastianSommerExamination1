@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+    [SerializeField] Transform player;
+
     void Update()
     {
-        GameObject camera = GameObject.FindWithTag("Player");
-        transform.position = camera.transform.position + new Vector3(0,0,-10);
+        transform.position = new Vector3(player.position.x, player.position.y, -10);
     }
 }
