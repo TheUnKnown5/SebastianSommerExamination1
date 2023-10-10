@@ -6,8 +6,6 @@ public class Wobble : MonoBehaviour
 {
     void Update()
     {
-        transform.localScale = transform.localScale + new Vector3(Random.Range(-.002f,.002f), Random.Range(-.002f,.002f), 0);
-
-        Debug.Log("Growing");
+        transform.position = transform.position + new Vector3(Random.Range(-.05f,.05f), Random.Range(-.05f,.05f), Random.Range(0,0));
     }
 }
