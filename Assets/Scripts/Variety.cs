@@ -10,11 +10,12 @@ public class Variety : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             Destroy(other.gameObject);
-            transform.localScale += new Vector3(.5f, .5f, 0);
+            transform.localScale += new Vector3(0.5f, 0.5f, 0);
         }
-        if (other.gameObject.tag == "g")
+        if (other.gameObject.tag == "Allies")
         {
-
+            Destroy(other.gameObject);
+            transform.localScale += new Vector3(0.5f, 0.5f, 0);
         }
     }
 }

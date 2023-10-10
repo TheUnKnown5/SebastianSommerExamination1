@@ -6,7 +6,7 @@ public class AlliedMovement : MonoBehaviour
 {
     void Update()
     {
-        transform.Translate(.02f, 0, 0 * .1f);
-        transform.Rotate(0, 0, .2f, Space.Self);
+        transform.Translate(0.02f, 0, 0 * 0.1f);
+        transform.Rotate(0, 0, 0.2f, Space.Self);
     }
 }

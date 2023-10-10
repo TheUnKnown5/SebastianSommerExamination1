@@ -10,7 +10,7 @@ public class Spawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Spawning", 1, .5f);
+        InvokeRepeating("Spawning", 1, 0.5f);
     }
 
     void Spawning()
