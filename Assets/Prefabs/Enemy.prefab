@@ -13,10 +13,8 @@ GameObject:
   - component: {fileID: 4398843235199026876}
   - component: {fileID: 5266206925332297875}
   - component: {fileID: 7633225846414696209}
-  - component: {fileID: 1913040633378978096}
-  - component: {fileID: 2148391238514496142}
-  - component: {fileID: 1954646308288487067}
   - component: {fileID: 768551506060599804}
+  - component: {fileID: 1833239478140824868}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -160,45 +158,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5796933460394340577}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 77018aaba53f9f0439f61b1546bb5df6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1913040633378978096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5796933460394340577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1c35c7b1f7ea7c418064cd81cc77a34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2148391238514496142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5796933460394340577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 702c45d9c902928439ae1e56d1d4679b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1954646308288487067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5796933460394340577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 702c45d9c902928439ae1e56d1d4679b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &768551506060599804
@@ -211,5 +173,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e4931b52c8d6394a95e33be451ce939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  findTarget: {fileID: 0}
+--- !u!114 &1833239478140824868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5796933460394340577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de50ddc9deb1304408a621f27c20cc0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
