@@ -682,7 +682,7 @@ PrefabInstance:
     - target: {fileID: 1548867404705791631, guid: b924c2bf478b09549b47a5d333ef4d4f, type: 3}
       propertyPath: target2
       value: 
-      objectReference: {fileID: 1179412401}
+      objectReference: {fileID: 0}
     - target: {fileID: 6981591577587583036, guid: b924c2bf478b09549b47a5d333ef4d4f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
@@ -1270,37 +1270,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1179412401
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1179412402}
-  m_Layer: 0
-  m_Name: No target
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1179412402
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179412401}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 84.4, y: 11.789425, z: -4.519289}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1952011337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1372,11 +1341,11 @@ PrefabInstance:
     - target: {fileID: 7633225846414696209, guid: 7df2ef770ebe19a43afeb13041b2670c, type: 3}
       propertyPath: target1
       value: 
-      objectReference: {fileID: 1179412401}
+      objectReference: {fileID: 0}
     - target: {fileID: 7633225846414696209, guid: 7df2ef770ebe19a43afeb13041b2670c, type: 3}
       propertyPath: target2
       value: 
-      objectReference: {fileID: 1179412401}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1397,4 +1366,3 @@ SceneRoots:
   - {fileID: 38475786}
   - {fileID: 168459483}
   - {fileID: 1952011337}
-  - {fileID: 1179412402}
