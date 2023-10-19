@@ -14,6 +14,6 @@ public class outsidething : MonoBehaviour
         Vector2[] points = c.points;
         EdgeCollider2D e = gameObject.AddComponent<EdgeCollider2D>();
         e.points = points;
-        Destroy(c);  
+        Destroy(c);
     }
 }
