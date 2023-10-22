@@ -12,12 +12,10 @@ GameObject:
   - component: {fileID: 2243852089866538731}
   - component: {fileID: 4398843235199026876}
   - component: {fileID: 5266206925332297875}
-  - component: {fileID: 768551506060599804}
-  - component: {fileID: 1833239478140824868}
-  - component: {fileID: 347628173680215168}
+  - component: {fileID: -2263784223383314507}
   m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Enemy
+  m_Name: Immune
+  m_TagString: Immune
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: 885a4e0d3fe23374988b55b120b5db51, type: 3}
-  m_Color: {r: 0.5943396, g: 0.15363115, b: 0.18177056, a: 0.8235294}
+  m_Color: {r: 0.20855577, g: 0.77927727, b: 0.8962264, a: 0.8235294}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -151,7 +149,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &768551506060599804
+--- !u!114 &-2263784223383314507
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,30 +158,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5796933460394340577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e4931b52c8d6394a95e33be451ce939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1833239478140824868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5796933460394340577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 826cb28f657ddaa48a0eb3ae687dccba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &347628173680215168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5796933460394340577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784094769960cbd4ba05a7e661b2c061, type: 3}
+  m_Script: {fileID: 11500000, guid: 702c45d9c902928439ae1e56d1d4679b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

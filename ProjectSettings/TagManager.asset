@@ -8,6 +8,7 @@ TagManager:
   - Allies
   - Neutral
   - Semi neutral
+  - Immune
   layers:
   - Default
   - TransparentFX
